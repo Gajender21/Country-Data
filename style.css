@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    height: 100vh;
+    width: 100vw;
+  }
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+     
+}
+#card{
+    
+    background-color: bisque;
+    height: fit-content;
+    width: fit-content;
+    border: 5px solid white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card-body-img{
+    height: 200px;
+    width:auto;
+    
+}
